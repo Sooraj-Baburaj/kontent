@@ -1,0 +1,43 @@
+{
+  "name": "kontent",
+  "version": "1.0.0",
+  "description": "Kontent is a  tool created for react to utilize React's code reusability to the fullest and to make the development of headless websites with React js seamless. It provides a GUI which is intuitive and very easy to get started with, for developers and non-developers alike. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sooraj-Baburaj/kontent.git"
+  },
+  "keywords": [
+    "cms",
+    "kontent"
+  ],
+  "author": "Sooraj B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sooraj-Baburaj/kontent/issues"
+  },
+  "homepage": "https://github.com/Sooraj-Baburaj/kontent#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/react": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
